@@ -1,3 +1,5 @@
+[English](README.md) · **Русский**
+
 # OReader ⇄ KOReader Sync
 
 Синхронизация позиции чтения для **старых Android-читалок**, на которые
@@ -87,6 +89,15 @@ KOReader или прошивка с поддержкой KOReader Sync и XPoint
 - `zig` — кросс-компиляция `bookpos` под ARM
 - Android build-tools (`aapt`, `zipalign`), `dx`, компилятор Eclipse (`ecj`),
   JDK 8 — для APK (`app/build.ps1`)
+
+---
+
+## Скачать
+
+Готовый APK: **[Releases → OReaderSync.apk](https://github.com/RadislavA7/oreader-kosync/releases/latest)**.
+
+APK даёт только интерфейс (кнопки, экран настроек, показ серверного прогресса).
+Скрипт и вспомогательные бинарники ставятся по инструкции ниже.
 
 ---
 

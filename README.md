@@ -1,3 +1,5 @@
+**English** · [Русский](README.ru.md)
+
 # OReader ⇄ KOReader Sync bridge
 
 Reading-position sync for **old Android e-ink readers** that cannot run KOReader.
@@ -86,6 +88,15 @@ e.g. **CrossPoint** on Xteink X4/X3.
 - `zig` — cross-compile `bookpos` for ARM
 - Android build-tools (`aapt`, `zipalign`), `dx`, Eclipse compiler (`ecj`),
   JDK 8 — for the APK (`app/build.ps1`)
+
+---
+
+## Download
+
+Prebuilt APK: **[Releases → OReaderSync.apk](https://github.com/RadislavA7/oreader-kosync/releases/latest)**.
+
+The APK provides only the UI (buttons, settings screen, server progress display).
+The script and the helper binaries are installed as described below.
 
 ---
 
