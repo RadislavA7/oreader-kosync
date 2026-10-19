@@ -1,0 +1,20 @@
+# build artifacts
+app/out/
+app/keystore/
+device/bookpos
+device/bookpos.exe
+device/bookpos.pdb
+
+# local secrets and runtime state
+*.conf
+!device/kosync.conf.example
+data.json
+*.log
+run.err
+run.out
+
+# editor / OS junk
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

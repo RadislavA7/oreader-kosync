@@ -1,0 +1,7 @@
+# OReader <-> KOReader Sync settings
+# Copy to /sdcard/oreader-kosync/kosync.conf on the device (or use the app's Settings screen).
+# The app stores the md5 hash of the password as AUTH_KEY.
+
+SERVER='http://sync.example.com'
+AUTH_USER='your_username'
+AUTH_KEY='md5_of_your_password'
